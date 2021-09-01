@@ -1,5 +1,5 @@
-# Frontend1
-Repositorio remoto para proyectos Frontend 1
+# Proyects as developer
+Remote repository for Gustavo J Lobos' projects.
 
 <h1>Proyectos Frontend 1</h1>
 <ol>
