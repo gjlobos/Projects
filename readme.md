@@ -1,8 +1,9 @@
-# Frontend1
-Repositorio remoto para proyectos Frontend 1
+# Proyects as developer
+Remote repository for Gustavo J Lobos' projects.
 
-<h1>Proyectos Frontend 1</h1>
 <ol>
-  <li><a href="https://gjlobos.github.io/Frontend1/LemonPie">LemonPie</li>
+  <li><a href="https://gjlobos.github.io/Projects/Lemon Pie">Lemon Pie</li>
+  <li><a href="https://gjlobos.github.io/Projects/Petshop">Petshop</li>
+  <li><a href="https://gjlobos.github.io/Projects/CV Batman">CV Batman</li>
 </ol>
 
