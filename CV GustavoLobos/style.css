@@ -1,0 +1,57 @@
+/* General */
+
+h1, h2 {
+    background-color: #C4C4C4;
+    color:#005677;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Header */
+header {
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+h1 {  
+    font-size: 35px;
+}
+
+/* Sections */
+
+h2 {
+    font-size: 20px;
+}
+
+ul {
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
+dt {
+    margin-left: 20px;    
+}
+
+dd {
+    margin-left: 100px;
+}
+
+span {
+    font-weight: bold;
+}
+
+ul span {
+    font-style: italic;
+}
+
+/* Footer */
+
+footer {
+    background-color: #005677;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
