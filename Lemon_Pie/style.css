@@ -28,7 +28,7 @@ h1 {
 
 .banner {
     background-color: #C4C4C4;
-    background-image: url("../Lemon_Pie/img/lemon-pie.png");
+    background-image: url("/img/lemon-pie.png");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
