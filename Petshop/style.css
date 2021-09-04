@@ -1,0 +1,140 @@
+/* Generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display:inline-block;
+}
+
+/* Body */
+
+body {
+    font-family: Roboto;
+    margin: 0% auto;
+}
+
+/* Header */
+
+header {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+}
+
+.preheader {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.preheader p {
+    display:inline-block;
+    margin-left: 80px;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 700px;
+}
+
+.logo-header {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.menu-header {
+    display:inline-block;
+}
+
+.logo-header span {
+    color: #3C2313;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    display:inline-block;
+}
+
+nav ul {
+    font-size: 13px;
+    font-weight: 409;
+    margin-left: 480px;
+}
+
+/* Main */
+
+/* Section 1 */
+
+.banner {
+    background-image: url("img/Petshop_background.png");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.div-banner {
+    display: inline-block;
+    margin-left: 760px;
+    text-align: center;
+}
+
+.div-banner h2 {
+    background-color:#FFFFFF;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 180px;
+}
+
+.p1-banner {
+    font-size: 16px;
+}
+
+.p2-banner {
+    font-size: 16px;
+    background-color: #F0A83E;
+    color:#FFFFFF;
+    padding: 20px 30px;
+    display:inline-block;
+    border-radius: 10%;
+}
+
+/* Section 2 */
+
+.div-destacados {
+    background-image: url("img/");
+    text-align:center;
+}
+
+.div-destacados i {
+    font-size: 60px;
+    color: #F0A83E;
+    padding: 20px;
+}
+
+.div-destacados h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.div-destacados ul {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* Section 3 */
+
+.section-cards {
+    display:inline-flex;
+    align-items: center;
+}
+
+/* Footer */
+
+

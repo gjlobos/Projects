@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div>
+        <div class="preheader">
             <p>Grandes ofertas en comederos</p>
-            <ul>
+            <ul class="menu">
                 <li>Español</li>
                 <li>ARG$</li>
             </ul>
         </div>
-        <div>
+        <div class="logo-header">
             <img src="img/Cat.png" alt="Cara de un gato">
-            <h1>FrontCat&Dog</h1>
+            <h1><span>Front</span>Cat&Dog</h1>
             <img src="img/Dog.png" alt="Cara de un perro">
-            <nav>
-                <ul>
-                    <li>Categorías</li>
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
-                </ul>
-            </nav>
         </div>
+        <nav class="menu-header">
+            <ul>
+                <i class="fas fa-paw"></i><li>Categorías</li>
+                <i class="fas fa-paw"></i><li>Pets</li>
+                <i class="fas fa-paw"></i><li>Nosotros</li>
+                <i class="fas fa-paw"></i><li>Contactanos</li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <div>
-                <img src="img/Petshop_background.png" alt="Imagen de fondo">
-            </div>
-            <div>
+        <section class="banner">
+            <div class="div-banner">
                 <h2>¡Es un placer tenerte aquí!</h2>
-                <p>¡Comederos en descuento!</p>
-                <p>COMEDEROS</p>
+                <p class="p1-banner">¡Comederos en descuento!</p>
+                <p class="p2-banner">COMEDEROS</p>
             </div>
         </section>
         <section>
-            <img src="img/" alt="Imagen de una pata de perro">
-            <h2>Productos Destacados</h2>
-            <ul>
-                <li>Comederos</li>
-                <li>Accesorios</li>
-                <li>Comida</li>
-            </ul>
+            <div class="div-destacados">
+                <i class="fas fa-paw"></i>
+                <h2>Productos Destacados</h2>
+                <ul>
+                    <li>Comederos</li>
+                    <li>- Accesorios</li>
+                    <li>- Comida</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-cards">
             <div>
                 <img src="img/churrasquito.png" alt="Imagen de juguete churrasquito">
                 <p>Juguete Churrasquito</p>
@@ -63,13 +70,11 @@
                 <p>Juguete Huesito</p>
                 <p>$650</p>
             </div>
-            <div></div>
-            
         </section>
-        <section></section>
     </main>
     <footer>
         <p>Todos los derechos reservados Front End</p>
     </footer>
 </body>
+
 </html>
